@@ -1,0 +1,141 @@
+#logo{
+    width: 200px;
+    height: 75px;
+}
+
+h1{ 
+    color: rgb(13, 103, 7);
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    text-align: center;
+
+}
+
+p{
+    color: rgb(13, 103, 7);
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    text-align: center;
+
+}
+body{
+    background-color:  rgba(244, 240, 214, 0.779);
+}
+
+#sob{
+    display: block;
+    text-align: center;
+}
+/*carrossel*/
+
+nav ul {
+    list-style: none;
+    text-align: center;
+    background-color:  rgba(244, 240, 214, 0.779);
+    border-radius: 20px ;
+    padding: 20px;
+    width: 1630px;
+    margin: auto;
+    font-size: 30px;
+}
+
+ nav li {
+    display: inline-block;
+ }
+ a:link {
+    color: rgb(13, 103, 7);
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    text-decoration: none;
+    padding: 30px;
+}
+
+a:visited{
+    color: rgb(13, 103, 7);
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    text-decoration: none;
+}
+
+a:hover{
+    color: rgba(145, 145, 8, 0.628);
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    text-decoration: none;
+}
+
+a:active{
+    color: rgba(226, 226, 11, 0.628);
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    text-decoration: none;
+}
+
+/*footer*/
+
+section {
+    display: flex;
+}
+
+article{
+    flex: 1;
+}
+
+#fot {
+    text-align: center;
+    background-color:rgba(244, 240, 214, 0.779);
+    border-radius: 20px ;
+    padding: 10px;
+    width: 80px;
+    margin: auto;
+    font-size: 18px;
+    color:rgb(16, 110, 22);
+}
+
+/*Produto*/
+
+#fott {
+    text-align: center;
+    background-color:rgba(244, 236, 214, 0.779);
+    border: 2px solid #8c830b8a;
+    border-radius: 20px ;
+    padding: 10px;
+    width: 50px;
+    margin: auto;
+    font-size: 18px;
+    color:rgba(33, 110, 16, 0.852);
+    text-transform: uppercase;
+    overflow: hidden;
+    transition: 1s all ease;
+}
+
+/*botao*/
+
+.btn{
+    position: relative;
+    display: block;
+    color: white;
+    font-size: 14px;
+    font-family: "montserrat";
+    text-decoration: none;
+    margin: 10px 0;
+    border: 2px solid #f0a30aad;
+    padding: 10px 10px;
+    text-transform: uppercase;
+    overflow: hidden;
+    transition: 1s all ease;
+  }
+  .btn::before{
+    background: #f1af59c6;
+    content: "";
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    z-index: -1;
+    transition: all 0.6s ease;
+  }
+  
+  .btn1::before{
+    width: 0%;
+    height: 100%;
+  }
+  
+  .btn1:hover::before{
+    width: 100%;
+  }
+  
